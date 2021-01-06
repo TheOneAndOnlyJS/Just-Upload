@@ -41,3 +41,12 @@
     border: 2px solid black;
     border: 1px;
   }
+
+  .btn1{
+    background: #00A9D4;
+    color: #fff;
+    border-radius: 29px;
+    height: 50px;
+    border: 2px solid dodgerblue;
+    outline: none;
+      }

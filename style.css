@@ -50,3 +50,9 @@
     border: 2px solid dodgerblue;
     outline: none;
       }
+
+  .audio{
+    width: 20%;
+    margin-left: 80%;
+    outline: none;
+  }

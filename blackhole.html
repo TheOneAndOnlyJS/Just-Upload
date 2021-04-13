@@ -4,28 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./newstyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="./Just a code - Copy.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M01NZG2KZ4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    $(document).ready(function(){
+  $("#burger").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-M01NZG2KZ4');
+  </script>
     <title>Learn about black holes</title>
 </head>
 <body bgcolor="#181a1b">
-    <div style="font-family:'Quicksand', sans-serif;">
-        <div id="navbar" style="font-family:'Quicksand', sans-serif;">
-            <span style="font-size: 20px;">
-                <a href="./donate.html">Donate 💖</a>
-                <a href="./moreweb.html">More websites</a>
-                <a href="./aboutme.html">About me</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./index.html">Home</a>
-                <br>
-                <br>
-                <br>
-            </span>
-            <img src="./Just a code.png" alt="" style=" width: 7%; margin-top: -4%;"><h1 style="color: white; margin-left: 7%; padding: 9px; margin-top: -7%; font-size: 50px; font-family: 'ZCOOL QingKe HuangYou', cursive;">JUST-UPLOAD</h1>
-    </div>
+    <nav><img src="./Just a code.png" alt="" style="width: 4%;" class="logo">
+        <h2 style="padding-left: 1%; padding-top: 1%; padding-bottom: 1%; color: white;" class="logoname">Just-Facts</h2>
+        <a href="./index.html" class="a1">
+            <h3 class="nav_link">Home</h3></a><a href="./contact.html" class="a1">
+            <h3 class="nav_link">Contact</h3></a>
+        <a href="./moreweb.html" class="a1"><h3 class="nav_link">More Websites</h3></a><a href="./donate.html" class="a1"><h3 class="nav_link">Donate</h3></a>
+        <div id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+    </nav>
+    <div id="panel">
+        <i class="fa fa-home"></i>  <a href="./index.html">Home</a>
+        <br>
+        <br>
+        <i class="fa fa-phone"></i> <a href="./contact.html">Contact</a>
+        <br>
+        <br>
+        <i class="fa fa-bullhorn"></i> <a href="./moreweb.html">More Websites</a>
+        <br>
+        <br>
+        <i class="fa fa-heart"></i> <a href="./donate.html">Donate</a>
+        <br>
+     </div>
 <br>
 <br>
 <br>
@@ -35,7 +64,7 @@
 <br>
 <br>
 <br>
-<a href="./index.html"><button style="width: 7%; margin-top: -20%; height: 50px;" class="btn1">Back</button></a>
+<a href="./index.html"><button class="btn1">Back</button></a>
 <br>
 <br>
 <br>

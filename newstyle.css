@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1D2228;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.burger {
+    display: none;
+  }
+
+#panel{
+    display: none;
+}
+
+li{
+    list-style: none;
+    padding: 1%;
+    color: white;
+    margin-left: 15%;
+}
+
+nav{
+    display: flex;
+    background: #333;
+    padding: -1%;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.boxes{
+    background: dodgerblue;
+    border-radius: 25px;
+    width: 20%;
+    height: 30%;
+    margin: 5%;
+    padding: 1.50%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+.a1{
+    margin-left: 13%;
+    margin-top: 1%;
+}
+
+.a2{
+    margin-left: 16%;
+    background-color: #1D2228;
+    padding: 5%;
+    color: white;
+    width: 70%;
+    outline: none;
+    border: 2px solid #1D2228;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#panel{
+    padding: 5px;
+    text-align: center;
+    background-color: #333;
+    border-top: 2px solid #c3c3c3;
+    border-left: 2px solid #c3c3c3;
+    border-right: 2px solid #c3c3c3;
+    border-bottom: 2px solid #c3c3c3;
+    width: 78.50%;
+    color: white;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+@media screen and (max-width:768px) {
+    .boxes{
+        background: dodgerblue;
+        border-radius: 25px;
+        width: 75%;
+        height: 30%;
+        margin: 8%;
+        padding: 4%;
+    }
+    nav{
+        display: flex;
+        background: #333;
+        padding: 5%;
+        
+    }
+    #burger div {
+        width: 25px;
+        height: 3px;
+        background-color: rgb(226, 226, 226);
+        margin: 5px;
+        transition: all 0.3s ease;
+        margin-left: 100%;
+    }
+
+    .logoname{
+        display: block;
+    }
+
+    .logo{
+        width: 500px;
+    }
+
+    #burger {
+        display: block;
+      }
+    
+      .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+      
+      .toggle .line2 {
+        opacity: 0;
+      }
+      
+      .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+
+      .nav_link{
+          display: none;
+      }
+      
+    
+}
